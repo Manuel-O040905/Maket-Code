@@ -1,0 +1,110 @@
+body {
+    background-color:#fcf8f5 ;
+}
+div{
+ padding:10px;
+ background-color: #fcf8f5;
+}
+p {
+ color:#bfb3b2;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card.content {
+ color:#5b504c ;
+ background-color: #fcf8f5;
+}
+
+h1 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #fcf8f5;
+}
+h3 {
+ color:#433530;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card img {
+margin: 0px auto;
+ padding: 5px;
+ max-width: 250px;
+ border-radius:1.5rem;
+
+}
+
+.iconCart {
+    width: 16px;
+    height: 16px;
+    transform: translateY(25px);
+}
+
+.grid > div {
+ background-color:#fcf8f5;
+ border: solid 10px #fcf8f5;
+ }
+
+ .grid {
+    display : grid;
+    grid-template-columns: 25% 25% 25% ;
+    }
+.price {
+ color:#c6481a;
+ 
+}
+button {
+    border-style: solid;
+    border-color: #afaeae;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: white;
+    width: 70%;
+    height: 10%;
+    margin-left: 50%;
+    transform: translateX(-50%) translate(10%);
+    font-family: 'Segoe UI', Calibri, sans-serif;
+    font-weight: 550;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #c6481a;
+    border-color: #c6481a;
+}
+
+.container {
+    margin: 2rem 20% 5rem 5rem;
+    padding:0rem;
+    background-color: #fcf8f5;
+    border-radius:0px;
+}
+
+.Bouton {
+    position: relative;
+    top: -30px
+}
+
+.Panier {
+    background-color: #ffffff;
+    padding: 200px;
+    margin-left: 900px;
+    margin-right: -250px;
+    margin-top: -1500px;
+    border-radius: 20px;
+
+}
+
+.texte1 {
+    color:#c6481a;
+    margin-top: -200px;
+    margin-left: -175px;
+    background-color: #ffffff;
+}
+
+.texte1 h3 {
+color:#c6481a;
+}
+
+.Panier img {
+ height : 150px;
+ width: 150px ;
+margin-top: 20px;
+margin-left: -50px;
+}
